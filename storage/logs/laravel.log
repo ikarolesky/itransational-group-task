@@ -1,0 +1,4 @@
+[2025-06-23 23:27:53] testing.ERROR: Cannot make non static method League\Csv\Modifier\StreamFilter::validateString() static in class League\Csv\AbstractCsv {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot make non static method League\\Csv\\Modifier\\StreamFilter::validateString() static in class League\\Csv\\AbstractCsv at C:\\Users\\IK\\Documents\\GitHub\\itransational-group-task\\vendor\\league\\csv\\src\\AbstractCsv.php:148)
+[stacktrace]
+#0 {main}
+"} 
