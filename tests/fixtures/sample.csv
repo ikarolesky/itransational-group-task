@@ -1,0 +1,7 @@
+sku,name,price,stock,discontinued
+P001,Product One,20,30,false
+P002,Product Two,2,5,false
+P003,Product Three,1200,50,false
+P004,Product Four,100,20,true
+P005,Product Five,4,9,false
+P006,Product Six,100,50,false
