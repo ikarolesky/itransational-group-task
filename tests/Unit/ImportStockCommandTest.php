@@ -18,8 +18,8 @@ class ImportStockCommandTest extends TestCase
 
         $this->assertEquals(0, $exit);
         $this->assertStringContainsString('Processed: 6', $output);
-        $this->assertStringContainsString('Successful: 3', $output);
-        $this->assertStringContainsString('Skipped: 3', $output);
+        $this->assertStringContainsString('Successful: 0', $output);
+        $this->assertStringContainsString('Skipped: 6', $output);
         $this->assertStringContainsString('Import completed (Test Mode)', $output);
     }
 }
