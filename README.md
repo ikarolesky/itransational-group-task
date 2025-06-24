@@ -1,16 +1,30 @@
-How to install
-Clone the repo
-Run ```composer install```
-Run migrations
+
+# Laravel CSV StockImporter
+
+Product importer via CSV with business rules:
+- Filter prices (< R$5+stock<10 or >R$1000)
+- Discontinued brands with current date
+- CLI command with `--test` mode
+- Reports and unit tests
+
+## Use
+Install dependencies:
+
+```composer install```
+
+Run migrations:
+
 ```php artisan migrate```
 
-🧰 How to run it
-Normally
-```php artisan stock:import storage/app/products.csv```
-Test Mode
-```php artisan stock:import storage/app/products.csv --test```
+Import CSV:
 
-✅ Unit Testing
+- Simulated
+
+```php artisan stock:import {path/to/file} --test```
+
+- Production 
+```php artisan stock:import {path/to/file}```
+
+Run tests:
+
 ```php artisan test```
-OR
-``` php artisan test --filter=ImportStockCommandTest```
